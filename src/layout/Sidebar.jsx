@@ -85,12 +85,12 @@ export class Sidebar extends Component {
                                 </span>
                                 <Icon type="plus-circle" className="plus-circle" />
                             </Menu.Item>
-                           <DirectChats title={" SlackBot"} icon={"heart"} theme={"filled"}/>
-                           <DirectChats title={" Brand Valistin"} icon={"info-circle"} theme={"filled"}/>
-                           <DirectChats title={" Ali Afzal"} icon={"question-circle"} theme={"filled"}/>
-                           <DirectChats title={" Check Reviews"} icon={"check-circle"} theme={""}/>
-                           <DirectChats title={" Check Reviews"} icon={"check-circle"} theme={""}     />
-                          
+                            <DirectChats title={" SlackBot"} icon={"heart"} theme={"filled"} />
+                            <DirectChats title={" Brand Valistin"} icon={"info-circle"} theme={"filled"} />
+                            <DirectChats title={" Ali Afzal"} icon={"question-circle"} theme={"filled"} />
+                            <DirectChats title={" Check Reviews"} icon={"check-circle"} theme={""} />
+                            <DirectChats title={" Check Reviews"} icon={"check-circle"} theme={""} />
+
                         </Menu>
                     </Sider>
                     <Layout style={{ background: '#fff' }} className="layout">
@@ -110,7 +110,7 @@ export class Sidebar extends Component {
                                     <Icon type="phone" className="head_Item" />
                                     <Icon type="info-circle" className="head_Item" />
                                     <Icon type="setting" className="head_Item" />
-                                    <Input
+                                    <Input className="sideInput"
                                         prefix={<Icon type="search" style={{ color: 'rgba(0,0,0,.25)' }} />}
                                         placeholder="Search"
                                     />
@@ -120,7 +120,7 @@ export class Sidebar extends Component {
                             </Col>
                         </Row>
 
-                        <Content style={{minHeight:'100%'}}>
+                        <Content style={{ minHeight: '100%' }}>
                             <div style={{ background: '#fff' }}>
 
                                 {/* <Content style={{ margin: '0', backgroundColor: 'white' }} > */}
@@ -132,7 +132,7 @@ export class Sidebar extends Component {
                                 <Chat imgUrl={require('./images/2.png')} name={"Altaf Hussain"} time={"8:00 AM"} comment={"Aslam o alaiqum Miss mein hafty tak nahi asktaa meri ami hospital mein admit hen or in k pass koe nai hai mery ilwa Thank u miss "} />
                                 <Chat imgUrl={require('./images/5.png')} name={"Beenish sheikh"} time={"4:27 PM"} comment={" Ma'am @Tuba Mohsin Im beenish sheikh.im severe ill,filling giddy and nausea .therefore i can't attend the important class today. plz accept my leave. I shall be very thankful to you."} />
                                 <Chat imgUrl={require('./images/6.png')} name={"Talat Hussain"} time={"2:00 AM"} comment={" MA SHA ALLAH.."} />
-                               
+
                                 {/* </Content> */}
 
                             </div>

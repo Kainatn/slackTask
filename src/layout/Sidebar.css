@@ -10,6 +10,11 @@
     margin: 0px;
    
 }
+input.sideInput {
+    background-color:#200720; 
+}
+    
+
 .workspace{
    background-color:#200720;
 }
