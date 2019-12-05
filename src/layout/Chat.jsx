@@ -7,7 +7,7 @@ const Chat = (props) => {
 
         <Row className="chats">
             <Col span={1}>
-                <img src={props.imgUrl} alt="profile"></img>
+                <img src={props.imgUrl} alt="profile" className="profileImage"></img>
             </Col>
             <Col className="chatArea">
                 <h3>{props.name}</h3>

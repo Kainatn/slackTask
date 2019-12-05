@@ -1,5 +1,10 @@
 @import '~antd/dist/antd.css';
 
+#components-layout-demo-responsive .logo {
+    height: 32px;
+    background: rgba(255, 255, 255, 0.2);
+    margin: 16px;
+  }
 *{
     padding: 0px;
     margin: 0px;
@@ -15,6 +20,9 @@ fieldset {
     
     border: 1px solid #e1e1e1;
     
+}
+.plus-circle{
+    margin-left: 20px;
 }
 legend {
     text-align: center;
@@ -88,11 +96,20 @@ margin:2px
      .workspace{
          display: none;
      }
-    section.ant-layout.ant-layout-has-sider {
+     .ant-row.nav {
+         display: none;
+    }
+    /* section.ant-layout.ant-layout-has-sider {
         display: flex;
         flex-direction: column;
-    }
+    } */
     .footer{
-        width: 100%;
+        min-width: 98%;
     }
+    
+  }
+  .directChatIcon{
+      padding: 0 5px;
+      margin-right: 3px;
+      color: green;
   }
