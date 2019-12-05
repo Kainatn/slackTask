@@ -1,0 +1,91 @@
+@import '~antd/dist/antd.css';
+
+*{
+    padding: 0px;
+    margin: 0px;
+   
+}
+.workspace{
+   background-color:#200720;
+}
+.sider{
+    background-color: #3f0d40;
+}
+fieldset {
+    
+    border: 1px solid #e1e1e1;
+    
+}
+legend {
+    text-align: center;
+    font-weight: bold;
+    font-size: 14px;
+}
+.tk{
+    font-weight: bold;
+    color: white;
+}
+.fa-circle{
+color: green;
+   
+}
+img{
+    width: 25px;
+    margin: 10px 10px;
+}
+.fa-bars{
+    padding:0  10px;
+}
+.nav{
+    padding: 0 8px;
+}
+.input{
+    background-color:#200720;
+ }
+ .icons{
+     padding:10px  10px;
+     margin-right: 10px;
+ }
+ 
+ .channel{
+    padding: 20px 15px; 
+    font-size: 15px;
+   
+ }
+ .workspace-circle{
+     font-size: 10px;
+     padding: 2px;
+ }
+ .channel_items{
+    padding-left: 10px;
+ }
+ .channel_item{
+     padding:10px;
+ }
+ .fam{
+     font-size: 25px;
+     color: #a09a9f;
+     padding: 10px;
+ }
+ h3{
+     margin:10px  10px;
+ }
+ .border{
+     border-right: 1px solid;
+margin:2px
+ }
+ .head_Item{
+     padding: 10px 5px;
+     font-size: 15px;
+
+ }
+
+ .star:hover{
+     color: gold;
+ }
+
+ @media only screen and (max-width: 600px) {
+    .layout {
+      background-color: lightblue;
+    }
+  }

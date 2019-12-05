@@ -1,0 +1,8 @@
+.chats:hover{
+    background-color: rgba(199, 191, 191, 0.308);
+}
+.chats{border-bottom:1px solid #e1e1e1}
+.chatArea{
+    display: flex;
+    flex-direction: row; 
+}
