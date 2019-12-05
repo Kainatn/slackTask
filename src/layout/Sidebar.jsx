@@ -16,7 +16,6 @@ export class Sidebar extends Component {
 
         return (
             <div>
-
                 <Layout style={{ minHeight: '100vh' }} >
                     <Col span={1} className="workspace" >
                         <Col mode="inline">
@@ -109,7 +108,7 @@ export class Sidebar extends Component {
                             <Chat imgUrl={require('./images/6.png')} name={"Talat Hussain"} time={"2:00 AM"} comment={" MA SHA ALLAH.."} />
                             <Chat imgUrl={require('./images/4.png')} name={"Noreen Naz"} time={"7:00 AM"} comment={" Wali...."} />
                         </Content>
-                        <Footer style={{ textAlign: 'center', position: "fixed", bottom: "0", width: '100%' }}>
+                        <Footer style={{ textAlign: 'center', position: "fixed", bottom: "0", width: '85%' }}  className="footer">
                             <div style={{ marginBottom: 16 }}>
                                 <Input addonBefore={<i class="fas fa-plus"></i>} addonAfter={<i class="far fa-smile"></i>} defaultValue="mysite" />
                             </div>
