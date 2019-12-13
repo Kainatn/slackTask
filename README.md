@@ -3,6 +3,12 @@ This is template of Slack.Slack is a collaboration hub that can replace email to
 #####  `Published Url`: https://slacktask.kk2111436.now.sh
 ![](images/slack.png)
 
+##  Code Flow
+
+* Created a Sidebar component in App.jsx and style Sidebar component using Ant-Design   
+* Created  a new component DirectChat.jsx inside Sidebar and passed props of repeated items
+* Created  a new component Chat.jsx inside Sidebar and passed props of repeated items
+
 # Available Scripts
 
 In the project directory, you can run:
